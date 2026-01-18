@@ -1,0 +1,32 @@
+{
+  "name": "knights-quest",
+  "version": "1.0.0",
+  "description": "Week 2 capstone",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "src/cli.js",
+    "setup": "psql -U postgres -d pokemon_collection -f schema.sql && psql -U postgres -d pokemon_collection -f seeds.sql"
+  },
+  "keywords": [
+    "cli",
+    "postgresql",
+    "inquirer",
+    "database"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "inquirer": "^9.3.8",
+    "pg": "^8.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomwalla917/Knights-Quest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomwalla917/Knights-Quest/issues"
+  },
+  "homepage": "https://github.com/tomwalla917/Knights-Quest#readme"
+}
