@@ -4,10 +4,10 @@ FROM realms
 ORDER BY name
 `;
 
-const getRealmByID = `
+const getRealmById = `
 SELECT id, name, ruler, description
 FROM realms
-WHERE id - $1
+WHERE id = $1
 `;
 
 const charactersByRealm = `
